@@ -1,2 +1,3 @@
-# personal-blog-website
-Personal blog website re-design exploration
+# Personal Blog & Website
+
+Exploration of personal blog and website design.
