@@ -1,0 +1,22 @@
+.article-headline {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.article-sub-headline {
+  font-size: 17px;
+  margin: 20px 0;
+}
+
+.article-content {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.article-img {
+  background: grey;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+}

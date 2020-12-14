@@ -1,0 +1,28 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-post {
+  margin-bottom: 40px;
+}
+
+.blog-link {
+  text-decoration: none;
+}
+
+.blog-headline {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.blog-sub-headline {
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.blog-content {
+  font-size: 16px;
+  font-weight: 300;
+}
