@@ -12,3 +12,23 @@
 .main p {
   font-weight: 300;
 }
+
+.main a {
+  color: coral;
+}
+
+@media (min-width: 768px) {
+  .main h2 {
+    font-size: 65px;
+  }
+
+  .main p {
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main p {
+    max-width: 650px;
+  }
+}

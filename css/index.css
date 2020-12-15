@@ -15,7 +15,8 @@
 body {
   min-height: 100vh;
   margin: 0 auto;
-  width: 80%;
+  padding: 0 5%;
+  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
@@ -49,7 +50,7 @@ h3 {
 p,
 input,
 textarea {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 150%;
 }
 
