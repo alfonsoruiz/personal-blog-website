@@ -15,6 +15,11 @@
 
 .main a {
   color: coral;
+  text-decoration: none;
+}
+
+.main u {
+  text-underline-offset: 20%;
 }
 
 @media (min-width: 768px) {

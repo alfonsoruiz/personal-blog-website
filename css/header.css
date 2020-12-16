@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  margin-bottom: 50px;
 }
 
 .main-header a {
@@ -31,6 +30,10 @@
 .main-header a {
   font-weight: 300;
   margin-bottom: 10px;
+}
+
+.main-nav a:hover {
+  font-weight: normal;
 }
 
 @media (min-width: 768px) {

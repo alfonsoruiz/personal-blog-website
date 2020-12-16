@@ -30,7 +30,8 @@ a,
 time,
 footer,
 input,
-textarea {
+textarea,
+figcaption {
   font-family: 'Roboto', sans-serif;
   color: #464444;
 }
@@ -54,10 +55,15 @@ textarea {
   line-height: 150%;
 }
 
-time {
+time,
+figcaption {
   color: rgb(150, 150, 150);
   font-size: 14px;
   font-weight: 300;
+}
+
+em {
+  font-weight: normal;
 }
 
 footer {

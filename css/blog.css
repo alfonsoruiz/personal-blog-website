@@ -1,14 +1,33 @@
 .blog {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .blog-post {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .blog-link {
   text-decoration: none;
+}
+
+.blog .author-info {
+  margin-bottom: 20px;
+}
+
+.blog .author-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog .author-name {
+  margin: 0 0 5px 0;
+}
+
+.blog .author-avatar {
+  height: 40px;
+  width: 40px;
 }
 
 .blog-headline {
@@ -26,10 +45,15 @@
   font-weight: 300;
 }
 
+.blog a {
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .blog {
-    margin-top: 100px;
+    margin-top: 150px;
   }
+
   .blog-headline {
     font-size: 36px;
   }
