@@ -7,6 +7,7 @@
 @import './contact.css';
 @import './blog.css';
 @import './article.css';
+@import './blog-cards.css';
 
 * {
   box-sizing: border-box;
